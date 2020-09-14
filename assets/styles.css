@@ -1,0 +1,87 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+wr-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+.browser-header {
+  padding: 1em 1em;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.browser-header select {
+  width: auto;
+}
+
+.editors, .editor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.run-controls {
+  float: right;
+}
+
+.no-browsers {
+  text-align: center;
+  margin-top: 1em;
+}
+
+wc-codemirror {
+  min-width: 0px;
+  min-height: 0px;
+  flex: auto;
+}
+
+.form-label {
+  vertical-align: bottom;
+}
+
+.url-group {
+  display: flex;
+  align-items: center;
+}
+
+.gutter {
+  background-color: gray;
+}
+
+.gutter.gutter-vertical {
+  width: 100%;
+}
+
+.gutter.gutter-vertical:hover {
+  cursor: row-resize;
+}
+
+.gutter.gutter-horizontal {
+  width: 100%;
+}
+
+.gutter.gutter-horizontal:hover {
+  cursor: col-resize;
+}
