@@ -166,6 +166,10 @@ class CDP
     }
   }
 
+  getDevToolsURL(prefixUrl) {
+    return `${prefixUrl}/devtools/inspector.html?${this.cdp.webSocketUrl.replace("://", "=")}`;
+  }
+
   ondisconnect(func) {
     if (this.cdp) {
       this.cdp.on('disconnect', func);

@@ -1,6 +1,4 @@
-*.har
+*.pyc
+**/node_modules/
 *.warc
-*.warc.gz
-!examples/*.warc
-**/node_modules
-dist/
+config.yaml

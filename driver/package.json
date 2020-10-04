@@ -1,0 +1,9 @@
+{
+  "name": "driver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.2"
+  }
+}

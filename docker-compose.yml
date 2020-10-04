@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+    main:
+        image: ikreymer/wreditor
+        build: ./
+
+    driver:
+        image: ikreymer/test-driver:dev
+        build: ./driver/
+

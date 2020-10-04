@@ -43,7 +43,12 @@ iframe {
 }
 
 .run-controls {
-  float: right;
+  min-width: fit-content;
+  padding-left: 0.25em;
+}
+
+.flex-auto {
+  flex: auto;
 }
 
 .no-browsers {
